@@ -1,0 +1,19 @@
+Metrics for Condtional Random Field Trained on Original Data
+ 1. ROC AUC Score: 0.9658188763012202	
+ 2. F1 Score: 0.9456094364351245	
+ 3. Average absolute error: 0.01 degrees
+ Classification Report is as follows
+              precision    recall  f1-score   support
+
+           c       0.95      0.90      0.93      4471
+           e       0.92      0.94      0.93      5846
+           f       0.97      0.93      0.95     16342
+           i       0.88      0.90      0.89      7980
+           o       0.96      0.94      0.95     34606
+           p       0.97      0.96      0.96      8028
+           s       0.90      0.97      0.94     14269
+          st       0.94      0.95      0.94     26875
+
+    accuracy                           0.94    118417
+   macro avg       0.94      0.94      0.94    118417
+weighted avg       0.94      0.94      0.94    118417

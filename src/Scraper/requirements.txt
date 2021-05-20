@@ -1,0 +1,46 @@
+#################################################################	
+#               Author: Vaibhav Oberoi				#
+#               Course: MCM Computing				#
+#            University: Dublin City University			#
+#               ID: 19210149					#
+#          Topic: Implicit aspect-based opinion mining		#
+#################################################################
+
+This file is requirement text file. 
+This project was run on Jupyter environment
+The scraper bot is built in python language
+Following are the project dependencies
+
+1. Install selelinum 
+	pip install selenium
+2. Install web-driver manager
+	pip install webdriver-manager
+
+Data is scraped from two websites
+1. AirlineRatings.com
+2. TripAdvisor.com
+
+Links for the web pages to be scraped
+1. Links for Trip Advisor webpages
+	1.1. Virign Australia: https://www.tripadvisor.ie/Airline_Review-d8728931-Reviews-Virgin-Australia
+	1.2. Virgin Atlantic: https://www.tripadvisor.ie/Airline_Review-d8729182-Reviews-Virgin-Atlantic-Airways
+	1.3. Vistara: https://www.tripadvisor.ie/Airline_Review-d8729207-Reviews-Vistara
+	1.4. United Airlines: https://www.tripadvisor.ie/Airline_Review-d8729177-Reviews-United-Airlines
+	1.5. Turkish Airlines:https://www.tripadvisor.ie/Airline_Review-d8729174-Reviews-Turkish-Airlines
+	1.6. Air Arabia: https://www.tripadvisor.ie/Airline_Review-d8728994-Reviews-Air-Arabia
+	1.7. Air Canada: https://www.tripadvisor.ie/Airline_Review-d8728998-Reviews-Air-Canada
+	1.8. Air France: https://www.tripadvisor.ie/Airline_Review-d8729003-Reviews-Air-France
+	1.9. Air India: https://www.tripadvisor.ie/Airline_Review-d8729004-Reviews-Air-India
+	1.10. Air Asia: https://www.tripadvisor.ie/Airline_Review-d8729220-Reviews-AirAsia-AirAsia-Berhad-Malaysia
+	1.11. American Airlines: https://www.tripadvisor.ie/Airline_Review-d8729020-Reviews-American-Airlines
+	1.12. British Airways: https://www.tripadvisor.ie/Airline_Review-d8729039-Reviews-British-Airways
+	
+2. Links for Airline Ratings webpages
+	url = https://www.airlinequality.com/airline-reviews/"+name+"/?sortby=post_date%3ADesc&pagesize=100
+	Here name is iterated over list of airlines
+	The list is as below
+	airlines = ['aer-lingus', 'air-arabia', 'air-canada', 'air-france', 
+				'air-india', 'airasia', 'american-airlines', 
+				'cathay-pacific-airways', 'dragonair', 'emirates', 
+				'fiji-airways', 'garuda-indonesia', 'goair', 'hop', 
+				'hong-kong-airlines', 'iran-air', 'indigo-airlines', 'vistara']
